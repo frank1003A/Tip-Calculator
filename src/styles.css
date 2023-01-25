@@ -130,26 +130,26 @@ body {
     justify-content: space-between;
 }
 
-.card .container .display .panel span {
+.card .container .display .panel .display_texts{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.card .container .display .panel span div {
+.card .container .display .panel .display_texts span {
     display: flex;
     flex-direction: column;
 }
 
-.card .container .display .panel span div label:first-of-type {
+.card .container .display .panel .display_texts span label:first-of-type {
     color: hsl(0, 0%, 100%)
 }
 
-.card .container .display .panel span div label {
+.card .container .display .panel .display_texts label {
     color: var(--grayish)
 }
 
-.card .container .display .panel span h1{
+.card .container .display .panel .display_texts h1{
    color: var(--strongcyan)
 }
 
