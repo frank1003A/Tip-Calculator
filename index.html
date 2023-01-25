@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- MAIN STYLE -->
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <h1 class="logo">SPLI <br/> TTER</h1>
+    <main class="card">
+      <div class="container">
+        <div class="form">
+          <div>
+            <label>Bill</label>
+            <div class="icon-input">
+              <span class="currency-symbol">$</span>
+              <input type="text"  />
+            </div>
+          </div>
+
+          <div>
+            <label>Select Tip %</label>
+            <span class="custom" id="custom">
+              <input type="button" value="5%" />
+              <input type="button" value="10%" />
+              <input type="button" value="15%" />
+              <input type="button" value="25%" />
+              <input type="button" value="50%" />
+              <input type="text" placeholder="Custom" id="custom_input"/>
+            </span>
+          </div>
+
+          <div>
+            <span class="res_label">
+              <label>Number of People</label>
+            <label id="error_number">Can't be zero</label>
+            </span>
+            <div class="icon-input">
+              <span class="people-symbol">$</span>
+              <input type="text"  />
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <div class="panel">
+            <div>
+              <span>
+                <div>
+                  <label>Tip Amount</label>
+                  <label>/ person</label>
+                </div>
+                <h1 id="d1">$0.00</h1>
+              </span>
+              <span>
+                <div>
+                  <label>Total</label>
+                  <label>/ person</label>
+                </div>
+                <h1 id="d2">$0.00</h1>
+              </span>
+            </div>
+            <button id="resetBtn" class="reset_btn">RESET</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Frank Ezene</a>.
+    </footer>
+    <script src="src/index.js"></script>
+  </body>
+</html>
