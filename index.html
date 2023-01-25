@@ -18,15 +18,17 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <h1 class="logo">SPLI <br/> TTER</h1>
+    <header>
+      <h1 class="logo">SPLI <br/> TTER</h1>
+    </header>
     <main class="card">
       <div class="container">
         <div class="form">
           <div>
-            <label>Bill</label>
+            <label for="bill" >Bill</label>
             <div class="icon-input">
               <span class="currency-symbol">$</span>
-              <input type="text"  />
+              <input type="text" id="bill"/>
             </div>
           </div>
 
@@ -44,12 +46,12 @@
 
           <div>
             <span class="res_label">
-              <label>Number of People</label>
+              <label for="no_people">Number of People</label>
             <label id="error_number">Can't be zero</label>
             </span>
             <div class="icon-input">
               <span class="people-symbol">$</span>
-              <input type="text"  />
+              <input type="text" id="no_people"/>
             </div>
           </div>
         </div>
